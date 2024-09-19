@@ -24,6 +24,24 @@
   color: white;
 }
 
+/* .App-header button {
+  padding-inline: 20px;
+  padding-block: 8px;
+  background-color: #282c3477;
+  color: #fff;
+  font-size: 1.25rem;
+  border-radius: .5rem;
+  cursor: pointer;
+} */
+
+.App-header h1 {
+  cursor: default;
+}
+
+.App-header button::selection, .App-header h1::selection {
+  user-select: none;
+}
+
 .App-link {
   color: #61dafb;
 }
